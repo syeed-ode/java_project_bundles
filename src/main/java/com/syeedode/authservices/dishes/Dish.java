@@ -4,9 +4,9 @@ public class Dish {
     private final String name;
     private final boolean vegetarian;
     private final int calories;
-    private final Type type;
+    private final MealType type;
 
-    public Dish(String name, boolean vegetarian, int calories, Type type) {
+    public Dish(String name, boolean vegetarian, int calories, MealType type) {
         this.name = name;
         this.vegetarian = vegetarian;
         this.calories = calories;
@@ -25,7 +25,7 @@ public class Dish {
         return calories;
     }
 
-    public Type getType() {
+    public MealType getType() {
         return type;
     }
 }

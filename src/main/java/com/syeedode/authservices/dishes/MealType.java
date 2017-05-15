@@ -1,6 +1,6 @@
 package com.syeedode.authservices.dishes;
 
-public enum Type {
+public enum MealType {
       MEAT
     , FISH
     , OTHER
