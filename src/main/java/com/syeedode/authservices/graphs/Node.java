@@ -15,13 +15,15 @@ public class Node {
     private final String name;
     private Node[] adjacent;
     private int numberOfAdjacentNodes;
-    private GTraversalStateEnum state;
+    private GTraversalStateEnum state = GTraversalStateEnum.UNVISITED;
 
     private Node(String name) {
         this.name = name;
     }
 
     public void addAdjacent(Node node) {
+        if(Objects.isNull(node)) return;
+
         int length = 1;
         if(Objects.isNull(adjacent)) {
             adjacent = new Node[length];
@@ -91,6 +93,8 @@ public class Node {
     }
 
     public Node[] getAdjacent() {
+        if(Objects.isNull(adjacent)) return null;
+
         return adjacent;
     }
 
