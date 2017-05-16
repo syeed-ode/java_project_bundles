@@ -12,7 +12,7 @@ public class TreeTraversalService {
     // Visit LEFT node, CURRENT node, then RIGHT node
     public void inOrderTraversal(NodeForTree node) {
         if(Objects.nonNull(node)) {
-            inOrderTraversal(node.left);
+            // inOrderTraversal(node.left);
 
         }
     }
