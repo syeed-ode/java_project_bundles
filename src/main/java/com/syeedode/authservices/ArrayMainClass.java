@@ -1,6 +1,10 @@
 package com.syeedode.authservices;
 
 import com.syeedode.authservices.arrays.ArrayUniqStrCalculator;
+import com.syeedode.authservices.arrays.StringComparator;
+
+import static com.syeedode.authservices.arrays.StringComparator.palendrome;
+import static com.syeedode.authservices.arrays.StringComparator.permutation;
 
 /**
  * Cracking the Coding Interview
@@ -20,6 +24,18 @@ public class ArrayMainClass {
         System.out.println(
                 ArrayUniqStrCalculator
                         .calculateUniqString("hey you smoothie"));
+
+        System.out.println("\n\n\n\n\n");
+
+        System.out.println(permutation("xyz","xyy") ? "String matches" : "String doesn't match");
+
+        String string1 = "ri1ck";
+        String string2 = "kc1ir";
+        System.out.print(palendrome(string1,string2));
+
+        System.out.println("\n\n\n\n\n");
+
+        System.out.println(StringComparator.urlifyString("Mr John Smith    ",13));
     }
 
 }

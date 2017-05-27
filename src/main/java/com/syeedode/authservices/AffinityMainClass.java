@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class AffinityMainClass {
 
-	private static final String FILENAME = "/Users/syeedode/java_projects/auth/src/main/resources/affinityFile";
+	private static final String FILENAME = "/Users/syeedode/java_projects/auth/src/convertToAtlassian/resources/affinityFile";
 
 	public static void main(String[] args) {
 		AffinityFileReader affinityReader = new AffinityFileReader();
@@ -25,6 +25,8 @@ public class AffinityMainClass {
 		AffMapPrinter printer = new AffMapPrinter();
 		System.out.println("\n\n\n" + "Clearing the board for the final showing: " + "\n\n\n");
 		printer.printAffinityMap(stringListMap);
+		System.out.println("\n\n\n" + "Clearing the board for the final showing: " + "\n\n\n");
+		printer.printHighestAffinity(stringListMap);
 	}
 
 }
