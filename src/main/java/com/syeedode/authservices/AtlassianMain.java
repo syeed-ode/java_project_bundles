@@ -53,7 +53,7 @@ public class AtlassianMain {
      *
      *
      ********/
-    public static void main(Stsring [] args) throws IOException {
+    public static void main(Stssring [] args) throws IOException {
         Scanner in = new Scanner(System.in);
         String fileName = System.getenv("OUTPUT_PATH");
         fileName = "/Users/syeedode/java_projects/auth/src/main/resources/linkedList";
