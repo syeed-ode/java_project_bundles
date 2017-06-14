@@ -9,7 +9,7 @@ import java.util.*;
  * Author: syeedode
  * Date: 5/29/17
  */
-public class Solution {
+public class AnagramSolution {
 
     public List<Integer> getAnagramIndicesTwo(String haystack, String needle) {
         // VALIDATE INPUT

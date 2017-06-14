@@ -1,8 +1,7 @@
 package com.syeedode.authservices;
 
-import com.sun.deploy.util.StringUtils;
+import com.syeedode.authservices.amazon.AnagramSolution;
 import com.syeedode.authservices.amazon.LunchSolution;
-import com.syeedode.authservices.amazon.Solution;
 
 /**
  * Amazon Interview
@@ -13,10 +12,10 @@ import com.syeedode.authservices.amazon.Solution;
 public class AmazonInterview {
     public static void main(String [] args) {
         System.out.println("Hello World");
-//        Solution solution = new Solution();
-//        for(Integer i : solution.getAnagramIndicesTwo("bcdaghbabcdaij","bcda")){
-//            System.out.println(i);
-//        }
+        AnagramSolution solution = new AnagramSolution();
+        for(Integer i : solution.getAnagramIndicesTwo("bcdaghbabcdaij","bcda")){
+            System.out.println(i);
+        }
         LunchSolution l = new LunchSolution();
         String[][] lmp = {
                   {"Pizza", "Italian"}
