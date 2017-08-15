@@ -1,4 +1,4 @@
-package com.syeedode.effectivejava.genericmethods;
+package com.syeedode.effectivejava.generics.genericmethods;
 
 /**
  * Effective Java

@@ -1,6 +1,6 @@
-package com.syeedode.effectivejava;
+package com.syeedode.effectivejava.generics;
 
-import com.syeedode.effectivejava.genericmethods.UnaryFunction;
+import com.syeedode.effectivejava.generics.genericmethods.UnaryFunction;
 
 /**
  * Effective Java
