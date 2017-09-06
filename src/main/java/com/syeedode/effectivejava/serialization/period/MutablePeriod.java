@@ -1,4 +1,4 @@
-package com.syeedode.serialization.period;
+package com.syeedode.effectivejava.serialization.period;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -7,7 +7,7 @@ import java.io.ObjectOutputStream;
 import java.util.Date;
 
 /**
- * Ad Service Application
+ * Effective Java
  * <p>
  * Author: syeedode
  * Date: 7/24/17

@@ -1,4 +1,4 @@
-package com.syeedode.serialization.period;
+package com.syeedode.effectivejava.serialization.period;
 
 import java.io.IOException;
 import java.io.InvalidObjectException;
@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * Ad Service Application
+ * Effective Java
  * <p>
  * Author: syeedode
  * Date: 7/24/17

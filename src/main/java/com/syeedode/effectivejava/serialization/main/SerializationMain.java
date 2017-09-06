@@ -1,12 +1,12 @@
-package com.syeedode.serialization;
+package com.syeedode.effectivejava.serialization.main;
 
-import com.syeedode.serialization.period.MutablePeriod;
-import com.syeedode.serialization.period.Period;
+import com.syeedode.effectivejava.serialization.period.MutablePeriod;
+import com.syeedode.effectivejava.serialization.period.Period;
 
 import java.util.Date;
 
 /**
- * Ad Service Application
+ * Effective Java
  * <p>
  * Author: syeedode
  * Date: 7/24/17
