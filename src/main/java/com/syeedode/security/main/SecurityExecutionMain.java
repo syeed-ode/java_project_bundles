@@ -1,4 +1,6 @@
-package com.syeedode.security;
+package com.syeedode.security.main;
+
+import static com.syeedode.security.client.SSLClient.executeSSLClient;
 
 /**
  * O'Reilly Java Security Second Edition
@@ -10,6 +12,6 @@ package com.syeedode.security;
 public class SecurityExecutionMain {
 
     public static void main(String [] args) {
-
+        executeSSLClient(args);
     }
 }
