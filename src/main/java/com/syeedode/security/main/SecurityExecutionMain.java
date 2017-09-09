@@ -1,6 +1,7 @@
 package com.syeedode.security.main;
 
 import static com.syeedode.security.client.SSLClient.executeSSLClient;
+import static com.syeedode.security.client.SSLClientVerifier.executeSSLClientVerifier;
 
 /**
  * O'Reilly Java Security Second Edition
@@ -13,5 +14,6 @@ public class SecurityExecutionMain {
 
     public static void main(String [] args) {
         executeSSLClient(args);
+        executeSSLClientVerifier(args);
     }
 }

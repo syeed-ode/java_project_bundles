@@ -1,12 +1,12 @@
 package com.syeedode.security.client;
 
-import org.springframework.util.ObjectUtils;
-
 import javax.net.SocketFactory;
 import javax.net.ssl.SSLSocketFactory;
 import java.io.*;
 import java.net.Socket;
-import java.util.Optional;
+
+import static com.syeedode.security.common.ArgumentValidator.OUTPUT_STRING;
+import static com.syeedode.security.common.ArgumentValidator.fromStringArray;
 
 /**
  * O'Reilly Java Security Second Edition
@@ -17,8 +17,6 @@ import java.util.Optional;
  */
 public class SSLClient {
 // javax.net.ssl.trustStorePassword
-    private final static String OUTPUT_STRING = "Who is Sylvia?";
-
     public static void executeSSLClient(String [] args) {
         SocketFactory socketFactory = SSLSocketFactory.getDefault();
         String hostname = fromStringArray(args,0, "localhost");
@@ -39,12 +37,5 @@ public class SSLClient {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-
-    private static String fromStringArray(String[] args, final int index, String defaultString) {
-        return Optional
-                .ofNullable(ObjectUtils.isEmpty(args) ? null : args)
-                .map(array -> array[index])
-                .orElse(defaultString);
     }
 }
